@@ -1,5 +1,4 @@
 from shutil import disk_usage
-import os
 
 def disk_test() -> str:
     disk = disk_usage('/')
